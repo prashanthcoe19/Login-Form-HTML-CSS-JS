@@ -1,0 +1,108 @@
+body{
+    font-family: arial;
+    background-color: #141414;
+    margin:0;
+}
+
+header{
+    background: #0d0d0d;
+    padding: 20px;
+    text-align: center;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#container{
+    height: 338px;
+    width: 390px;
+    margin: 110px auto;
+    background: #f7f7f7;
+}
+
+#container .myform{
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #222;
+    background-color: #0d0d0d;
+}
+ #container .myform #name {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+#container .myform #email {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+#container .myform #mypwd {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+
+#container .myform #mypwd1{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    
+} 
+
+
+#container .myform1{
+    height: 300px;
+    width:390px;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #222;
+    background-color: #0d0d0d;
+}
+
+#container .myform1 #email {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+#container .myform1 #mypwd {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #b61111;
+    border-radius: 5px ;
+    box-shadow: 1px 3px 5px rgba(0 , 0 , 0, 0.5);
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    color: #ffffff;
+}
+button:hover{
+    background: #222;
+    border-bottom-color: #1f030c;
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+p{
+    color: white;
+}
